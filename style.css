@@ -1,0 +1,14 @@
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr); /* 16 columns of equal width */
+    grid-template-rows: repeat(16, 1fr);    /* 16 rows of equal height */
+    width: 400px;  /* adjust size as needed */
+    height: 400px; /* adjust size as needed */
+    /* border: 2px solid black;  optional: border around the container */
+}
+
+.cell {
+    border: 1px solid black;  /* optional: border around each cell */
+    background-color: white;  /* optional: background color for cells */
+}
